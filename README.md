@@ -4,6 +4,22 @@
 
 A collection of AWS HealthOmics workflows to accelerate drug discovery.
 
+## Table Of Contents
+
+Contains the following Workflows:
+* embedding_gen_w_esm2
+* protein_design_w_rfdiffusion
+* protein_folding_w_alphafold2-monomer
+* protein_folding_w_alphafold2-multimer
+* protein_folding_w_esmfold
+
+Contains the following Models containerized and ready for execution:
+* alphafold-data
+* alphafold-predict
+* esm2
+* protein-utils
+* rfdiffusion
+
 ## Deployment
 
 For individual deployments, you also can navigate to the README in `assets/workflows/<workflow-name>`. The following is currently a WIP, but will be the recommended way shortly!
